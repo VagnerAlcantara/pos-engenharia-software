@@ -1,0 +1,35 @@
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLDeployment</id><coordinates><x>10</x><y>365</y><w>300</w><h>260</h></coordinates><panel_attributes>&lt;&lt;servidor&gt;&gt;
+
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>170</x><y>15</y><w>500</w><h>320</h></coordinates><panel_attributes>&lt;&lt;computador cliente&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>20</x><y>655</y><w>360</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Servidor DB&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>520</x><y>645</y><w>220</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Servidor Imagem&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>260</x><y>65</y><w>320</w><h>250</h></coordinates><panel_attributes>&lt;&lt;SO&gt;&gt;
+
+Microsoft Windows XP Professional,
+Microsoft Windows Vista Business, 
+Microsoft Windows 7 Professional, 
+Microsoft Windows 8 e versões superiores.</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>280</x><y>185</y><w>280</w><h>90</h></coordinates><panel_attributes>&lt;&lt;web browser&gt;&gt;
+Internet Explorer versão 6.0 e versões superiores;
+Mozilla Firefox versão 10.0 e versões superiores.;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>40</x><y>425</y><w>240</w><h>170</h></coordinates><panel_attributes>&lt;&lt;servidor de aplicações&gt;&gt;
+x86 + RedHat / x86 + Suse/  
+x86 + Windows/ Sparc + Solaris / 
+IBM zSeries + RedHat /   
+:WebLogic
+
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>20</x><y>405</y><w>650</w><h>200</h></coordinates><panel_attributes>lt=.
+&lt;&lt;cluster&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>40</x><y>725</y><w>320</w><h>80</h></coordinates><panel_attributes>&lt;&lt;servido de banco de dados&gt;&gt;
+IBMDB2 UDB versão 9.7 e versões superiores;
+SGBD Oracle versão 11g e versões superiores;
+MS SQL Server versão 2012 ou versões superiores;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>70</x><y>535</y><w>140</w><h>40</h></coordinates><panel_attributes>&lt;&lt;aplicação Java Web&gt;&gt;
+Gestão da Inovação</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>380</x><y>365</y><w>320</w><h>260</h></coordinates><panel_attributes>&lt;&lt;servidor&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>420</x><y>425</y><w>240</w><h>170</h></coordinates><panel_attributes>&lt;&lt;servidor de aplicações&gt;&gt;
+x86 + RedHat / x86 + Suse/  
+x86 + Windows/ Sparc + Solaris / 
+IBM zSeries + RedHat /   
+:WebLogic
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>460</x><y>535</y><w>140</w><h>40</h></coordinates><panel_attributes>&lt;&lt;aplicação Java Web&gt;&gt;
+Gestão da Inovação</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>265</y><w>30</w><h>170</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;150;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>555</y><w>30</w><h>190</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;170</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>565</y><w>240</w><h>180</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;160;220;10</additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>530</x><y>700</y><w>190</w><h>80</h></coordinates><panel_attributes>&lt;&lt;servidor de conteúdo&gt;&gt;
+IBM Content Manager</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>560</y><w>360</w><h>170</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;340;150</additional_attributes></element></diagram>

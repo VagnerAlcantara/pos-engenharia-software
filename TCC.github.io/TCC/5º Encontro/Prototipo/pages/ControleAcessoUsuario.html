@@ -1,0 +1,241 @@
+<div class="panel-group">
+  <div class="panel panel-default">
+	<div class="panel-heading"><h4>Pesquisar</h4></div>
+    <div class="panel-body">
+	<div class="form-group col-lg-12">
+		<div class="form-group col-lg-2">
+			<label for="cpfPaciente">Usuário</label>
+			<input type="text" class="form-control input-small" id="cpfPaciente" aria-describedby="cpfPacienteHelp" />
+			<!--<small id="cpfPacienteHelp" class="form-text text-muted">Digite um id de usuário para a busca</small> -->
+		</div>
+		<div class="form-group col-lg-6">
+			<label for="nomePaciente">Nome</label>
+			<input type="text" class="form-control input-small" id="nomePaciente" aria-describedby="nomePacienteHelp" />
+			<!--<small id="nomePacienteHelp" class="form-text text-muted">Informe o nome completo ou parte para uma busca aproximada</small>-->
+		</div>
+	</div>
+	<div class="form-group col-lg-12">
+		<div class="form-group col-lg-12 text-right">
+			<button type="submit" class="btn btn-default">Pesquisar</button>
+			<button type="submit" class="btn btn-default" onclick="carregarPagina('ControleAcessoUsuarioCreateUser.html')">Novo usuário</button>
+		</div>
+	</div>
+		
+	</div>
+  </div>
+</div>
+<div class="panel-group">
+  <div class="panel panel-default">
+	<div class="panel-heading"><h4>Resultado</h4></div>
+    <div class="panel-body">
+		<div class="table-responsive">
+			<table class="table table-bordered table-hover table-striped">
+				<thead>
+					<tr class="active">
+						<th></th>
+						<th>Usuário</th>
+						<th>Nome</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td style="width:25px"><i class="glyphicon glyphicon-user"></i></td>
+						<td style="width:100px">nataliarosetto</td>
+						<td style="width:150px">Natalia Rosetto</td>
+						<td style="width:200px">
+							<button type="button" class="btn btn-xs btn-default" data-toggle="tooltip"  title="Detalhar" onclick="carregarPagina('ControleAcessoUsuarioDetalhaUser.html')">
+							  <span class="glyphicon glyphicon-eye-open"></span>
+							</button>
+							<button type="button" class="btn btn-xs btn-default" data-toggle="tooltip"  title="Alterar" onclick="carregarPagina('ControleAcessoUsuarioEditUser.html')">
+							  <span class="glyphicon glyphicon-pencil"></span>
+							</button>
+							<button type="button" class="btn btn-xs btn-default" data-toggle="modal" data-target="#myModalExcluirUsuario"  title="Excluir">
+							  <span class="glyphicon glyphicon-remove"></span>
+							</button>
+							<button type="button" class="btn btn-xs btn-default" data-toggle="tooltip"  title="Ativar">
+							  <span class="glyphicon glyphicon-chevron-up"></span>
+							</button>
+							<button type="button" class="btn btn-xs btn-default" data-toggle="tooltip"  title="Inativar">
+							  <span class="glyphicon glyphicon-chevron-down"></span>
+							</button>
+              <button type="button" class="btn btn-xs btn-default" data-toggle="modal" data-target="#myModalUsuarioResetarSenha"  title="Resetar senha">
+							  <span class="glyphicon glyphicon-refresh"></span>
+							</button>
+						</td>
+					</tr>
+					<tr>
+						<td style="width:25px"><i class="glyphicon glyphicon-user"></i></td>
+						<td style="width:100px">mariasan</td>
+						<td style="width:150px">Maria S. Santos</td>
+						<td style="width:200px">
+							<button type="button" class="btn btn-xs btn-default" data-toggle="tooltip"  title="Detalhar" onclick="carregarPagina('ControleAcessoUsuarioDetalhaUser.html')">
+							  <span class="glyphicon glyphicon-eye-open"></span>
+							</button>
+							<button type="button" class="btn btn-xs btn-default" data-toggle="tooltip"  title="Alterar" onclick="carregarPagina('ControleAcessoUsuarioEditUser.html')">
+							  <span class="glyphicon glyphicon-pencil"></span>
+							</button>
+							<button type="button" class="btn btn-xs btn-default" data-toggle="modal" data-target="#myModalExcluirUsuario"  title="Excluir">
+							  <span class="glyphicon glyphicon-remove"></span>
+							</button>
+							<button type="button" class="btn btn-xs btn-default" data-toggle="tooltip"  title="Ativar">
+							  <span class="glyphicon glyphicon-chevron-up"></span>
+							</button>
+							<button type="button" class="btn btn-xs btn-default" data-toggle="tooltip"  title="Inativar">
+							  <span class="glyphicon glyphicon-chevron-down"></span>
+							</button>
+              <button type="button" class="btn btn-xs btn-default" data-toggle="modal" data-target="#myModalUsuarioResetarSenha"  title="Resetar senha">
+							  <span class="glyphicon glyphicon-refresh"></span>
+							</button>
+						</td>
+					</tr>
+					<tr>
+						<td style="width:25px"><i class="glyphicon glyphicon-user"></i></td>
+						<td style="width:100px">alexsilva</td>
+						<td style="width:150px">Alexandre Silva</td>
+						<td style="width:200px">
+							<button type="button" class="btn btn-xs btn-default" data-toggle="tooltip"  title="Detalhar" onclick="carregarPagina('ControleAcessoUsuarioDetalhaUser.html')">
+							  <span class="glyphicon glyphicon-eye-open"></span>
+							</button>
+							<button type="button" class="btn btn-xs btn-default" data-toggle="tooltip"  title="Alterar" onclick="carregarPagina('ControleAcessoUsuarioEditUser.html')">
+							  <span class="glyphicon glyphicon-pencil"></span>
+							</button>
+							<button type="button" class="btn btn-xs btn-default" data-toggle="modal" data-target="#myModalExcluirUsuario"  title="Excluir">
+							  <span class="glyphicon glyphicon-remove"></span>
+							</button>
+							<button type="button" class="btn btn-xs btn-default" data-toggle="tooltip"  title="Ativar">
+							  <span class="glyphicon glyphicon-chevron-up"></span>
+							</button>
+							<button type="button" class="btn btn-xs btn-default" data-toggle="tooltip"  title="Inativar">
+							  <span class="glyphicon glyphicon-chevron-down"></span>
+							</button>
+							<button type="button" class="btn btn-xs btn-default" data-toggle="modal" data-target="#myModalUsuarioResetarSenha"  title="Resetar senha">
+							  <span class="glyphicon glyphicon-refresh"></span>
+							</button>
+						</td>
+					</tr>
+				</tbody>
+				
+			</table>
+		</div>
+				
+		</div>
+	</div>
+  </div>
+</div>
+<div class="form-group col-lg-15 text-right">
+<button type="button" class="btn btn-default " onclick="carregarPagina('index.html')">
+	<span class="glyphicon glyphicon-chevron-left"></span>Voltar
+</button>	
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModalExcluirUsuario" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <div class="panel-group ">
+		<div class="panel panel-default ">
+			<div class="panel-body text-left ">
+				<p class="alert alert-warning"><strong> Aviso!</strong></p>
+				<p>Confirmar a exclusão do usuário?</p>
+			</div>
+		</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" data-toggle="modal" data-target="#myModalExcluirUsuarioSucesso">Sim</button>
+		<button type="button" class="btn btn-default" data-dismiss="modal" >Não</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModalExcluirUsuarioSucesso" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <div class="panel-group ">
+		<div class="panel panel-default ">
+			<div class="panel-body text-left ">
+				<p class="alert alert-success"><strong> Aviso!</strong></p>
+				<p>Usuário excluído com sucesso!</p>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+		</div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Modal -->
+<!-- line modal -->
+<div class="modal fade" id="myModalUsuarioResetarSenha" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+			<h3 class="modal-title" id="lineModalLabel">Resetar Senha</h3>
+		</div>
+		<div class="modal-body">
+			
+            <!-- content goes here -->
+						<form>
+							<fieldset disabled>
+								<div class="form-group ">
+									<label for="exampleInputEmail1">Usuário</label>
+									<input type="email" class="form-control" id="exampleInputEmail1" value="nataliarosetto">
+								</div>
+							</fieldset>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+							</div>
+							<div class="form-group">
+                <label for="exampleInputPassword1">Confirme a senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+							</div>
+							<div class="text-right">
+								<button type="button" class="btn btn-default" data-dismiss="modal" data-toggle="modal" data-target="#myModalUsuarioResetado" title="Salvar dados">Salvar</button>
+							</div>
+            </form>
+
+		</div>
+		<!--
+		<div class="modal-footer">
+			<div class="btn-group btn-group-justified" role="group" aria-label="group button">
+				<div class="btn-group" role="group">
+					<button type="button" class="btn btn-default" data-dismiss="modal"  role="button">Close</button>
+				</div>
+				<div class="btn-group btn-delete hidden" role="group">
+					<button type="button" id="delImage" class="btn btn-default btn-hover-red" data-dismiss="modal"  role="button">Delete</button>
+				</div>
+				<div class="btn-group" role="group">
+					<button type="button" id="saveImage" class="btn btn-default btn-hover-green" data-action="save" role="button">Save</button>
+				</div>
+			</div>
+		</div>
+		-->
+	</div>
+  </div>
+</div>
+	
+
+<div class="modal fade" id="myModalUsuarioResetado" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <div class="panel-group ">
+		<div class="panel panel-default ">
+			<div class="panel-body text-left ">
+				<p class="alert alert-success"><strong> Aviso!</strong></p>
+				<p>Senha resetada com sucesso!</p>
+				<p>O usuário deverá alterar a senha no próximo acesso.</p>
+			</div>
+		</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
